@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {MDBDataTable, MDBBtn} from 'mdbreact';
 import {Line} from "react-chartjs-2";
-
+import './data-table.css'
 
 class DatatablePage extends Component {
 
@@ -86,7 +86,8 @@ class DatatablePage extends Component {
             ],
             rows: [
                 {
-                    name: [<i className="fab fa-bitcoin fa-3x"></i>, ' Bitcoin'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/19633/btc.png"
+                                alt=""/>, ' Bitcoin'],
                     price: '$5310',
                     DirectVol24H: '$173.32M',
                     TotalVolume24H: '$1.98B',
@@ -95,7 +96,8 @@ class DatatablePage extends Component {
                     Chg24H: '0.56%'
                 },
                 {
-                    name: [<i className="fab fa-ethereum fa-3x"></i>, 'Ethereum'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/20646/eth_logo.png"
+                                alt=""/>, 'Ethereum'],
                     price: '$169.91',
                     DirectVol24H: '$65.68M',
                     TotalVolume24H: '$1.42B',
@@ -104,7 +106,8 @@ class DatatablePage extends Component {
                     Chg24H: '0.54%'
                 },
                 {
-                    name: [<i className="fab fa-neos fa-3x"></i>, 'EOS'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/1383652/eos_1.png"
+                                alt=""/>, 'EOS'],
                     price: '$5.24',
                     DirectVol24H: '$11.71M',
                     TotalVolume24H: '$976.87M',
@@ -113,7 +116,8 @@ class DatatablePage extends Component {
                     Chg24H: '1.16%'
                 },
                 {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/35309662/ltc.png"
+                                alt=""/>, 'Litecoin'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -122,7 +126,8 @@ class DatatablePage extends Component {
                     Chg24H: '0.91%'
                 },
                 {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -131,7 +136,8 @@ class DatatablePage extends Component {
                     Chg24H: '0.91%'
                 },
                 {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -140,7 +146,8 @@ class DatatablePage extends Component {
                     Chg24H: '0.91%'
                 },
                 {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -148,7 +155,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -156,7 +164,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -164,7 +173,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -172,7 +182,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -180,7 +191,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -188,7 +200,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -196,7 +209,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -204,7 +218,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -212,7 +227,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -220,7 +236,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -228,7 +245,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -236,7 +254,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -244,7 +263,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -252,7 +272,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -260,7 +281,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -268,7 +290,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -276,7 +299,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -284,7 +308,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -292,7 +317,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -300,7 +326,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -308,7 +335,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -316,7 +344,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -324,7 +353,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -332,7 +362,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -340,7 +371,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -348,7 +380,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -356,7 +389,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -364,7 +398,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -372,7 +407,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -380,7 +416,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -388,7 +425,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -396,7 +434,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -404,7 +443,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -412,7 +452,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -420,7 +461,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -428,7 +470,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -436,7 +479,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -444,7 +488,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -452,7 +497,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -460,7 +506,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -468,7 +515,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -476,7 +524,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -484,7 +533,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -492,7 +542,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -500,7 +551,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -508,7 +560,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -516,7 +569,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -524,7 +578,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -532,7 +587,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -540,7 +596,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -548,7 +605,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -556,7 +614,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -564,7 +623,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -572,7 +632,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -580,7 +641,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -588,7 +650,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -596,7 +659,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
@@ -604,7 +668,8 @@ class DatatablePage extends Component {
                     chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<i class="fab fa-monero fa-3x"></i>, 'Monero'],
+                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                                alt=""/>, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
