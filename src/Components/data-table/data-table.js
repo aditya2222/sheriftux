@@ -1,10 +1,28 @@
-import React, {Component} from 'react';
-import {MDBDataTable, MDBBtn} from 'mdbreact';
-import {Line} from "react-chartjs-2";
+import React, { Component, Children } from 'react';
+import { MDBDataTable, MDBBtn } from 'mdbreact';
+import { Line } from "react-chartjs-2";
 import './data-table.css'
 
 class DatatablePage extends Component {
 
+
+    // componentDidMount() {
+    //     let baseUrl = "https://widgets.cryptocompare.com/";
+    //     var scripts = document.getElementsByTagName("script");
+    //     var embedder = scripts[scripts.length - 1];
+    //     (function () {
+    //         var appName = encodeURIComponent(window.location.hostname);
+    //         if (appName == "") { appName = "local"; }
+    //         var s = document.createElement("script");
+    //         s.type = "text/javascript";
+    //         s.async = true;
+    //         var theUrl = baseUrl + 'serve/v1/coin/header?fsym=BTC&tsyms=USD,EUR,CNY,GBP';
+    //         s.src = theUrl + (theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+    //         embedder.parentNode.children[1].children[0].children[2].children[1].children[0].children[0].children[0].children[1].children[0].children[5].children[0].appendChild(s)
+    //         // console.log(embedder.parentNode.children[1].children[0].children[2].children[1].children[0].children[0].children[0].children[1].children[0].children[5].children[0])
+    //         console.log('embdedder is', s)
+    //     })();
+    // }
 
     state = {
         dataLine: {
@@ -86,595 +104,595 @@ class DatatablePage extends Component {
             ],
             rows: [
                 {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/19633/btc.png"
-                                alt=""/>, ' Bitcoin'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/19633/btc.png"
+                        alt="" />, ' Bitcoin'],
                     price: '$5310',
                     DirectVol24H: '$173.32M',
                     TotalVolume24H: '$1.98B',
                     MarketCap: '$93.76B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.56%'
                 },
                 {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/20646/eth_logo.png"
-                                alt=""/>, 'Ethereum'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/20646/eth_logo.png"
+                        alt="" />, 'Ethereum'],
                     price: '$169.91',
                     DirectVol24H: '$65.68M',
                     TotalVolume24H: '$1.42B',
                     MarketCap: '$17.98B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.54%'
                 },
                 {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/1383652/eos_1.png"
-                                alt=""/>, 'EOS'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/1383652/eos_1.png"
+                        alt="" />, 'EOS'],
                     price: '$5.24',
                     DirectVol24H: '$11.71M',
                     TotalVolume24H: '$976.87M',
                     MarketCap: '$5.46B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '1.16%'
                 },
                 {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/35309662/ltc.png"
-                                alt=""/>, 'Litecoin'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/35309662/ltc.png"
+                        alt="" />, 'Litecoin'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 },
                 {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 },
                 {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 },
                 {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 }, {
-                    name: [<img style={{width: '80px'}} src="https://www.cryptocompare.com/media/34477776/xrp.png"
-                                alt=""/>, 'Monero'],
+                    name: [<img style={{ width: '80px' }} src="https://www.cryptocompare.com/media/34477776/xrp.png"
+                        alt="" />, 'Monero'],
                     price: '$76.35',
                     DirectVol24H: '$24.63M',
                     TotalVolume24H: '$721.87M',
                     MarketCap: '$4.69B',
-                    chart: <Line height={150} width={400} data={this.state.dataLine} options={{responsive: false}}/>,
+                    chart: <img src="https://images.cryptocompare.com/sparkchart/BTC/USD/latest.png?ts=1556343600" alt="" />,
                     Chg24H: '0.91%'
                 },
 
@@ -684,6 +702,10 @@ class DatatablePage extends Component {
 
             ]
         }
+
+
+
+
 
         return (
             <MDBDataTable

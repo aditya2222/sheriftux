@@ -1,3 +1,14 @@
 table td  {
     font-size: 20px;
+
+}
+
+.ccc-coin-container{
+    visibility: hidden;
+    position: fixed;
+    padding: 0;
+}
+
+.ccc-chart{
+   
 }
