@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9f26cd1-4116-42f9-bdb8-89931254bd01" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/BottomContent/BottomContent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/ChartGraphs/ChartGraphs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/data-table/data-table.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/BottomContent/BottomContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BottomContent/BottomContent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ChartGraphs/ChartGraphs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ChartGraphs/ChartGraphs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/data-table/data-table.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/data-table/data-table.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/data-table/data-table.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/data-table/data-table.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,71 +24,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/data-table/data-table.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="128" column="52" selection-start-line="128" selection-start-column="52" selection-end-line="128" selection-end-column="52" />
-              <caret line="138" column="52" selection-start-line="138" selection-start-column="52" selection-end-line="138" selection-end-column="52" />
-              <caret line="148" column="52" selection-start-line="148" selection-start-column="52" selection-end-line="148" selection-end-column="52" />
-              <caret line="157" column="52" selection-start-line="157" selection-start-column="52" selection-end-line="157" selection-end-column="52" />
-              <caret line="166" column="52" selection-start-line="166" selection-start-column="52" selection-end-line="166" selection-end-column="52" />
-              <caret line="175" column="52" selection-start-line="175" selection-start-column="52" selection-end-line="175" selection-end-column="52" />
-              <caret line="184" column="52" selection-start-line="184" selection-start-column="52" selection-end-line="184" selection-end-column="52" />
-              <caret line="193" column="52" selection-start-line="193" selection-start-column="52" selection-end-line="193" selection-end-column="52" />
-              <caret line="202" column="52" selection-start-line="202" selection-start-column="52" selection-end-line="202" selection-end-column="52" />
-              <caret line="211" column="52" selection-start-line="211" selection-start-column="52" selection-end-line="211" selection-end-column="52" />
-              <caret line="220" column="52" selection-start-line="220" selection-start-column="52" selection-end-line="220" selection-end-column="52" />
-              <caret line="229" column="52" selection-start-line="229" selection-start-column="52" selection-end-line="229" selection-end-column="52" />
-              <caret line="238" column="52" selection-start-line="238" selection-start-column="52" selection-end-line="238" selection-end-column="52" />
-              <caret line="247" column="52" selection-start-line="247" selection-start-column="52" selection-end-line="247" selection-end-column="52" />
-              <caret line="256" column="52" selection-start-line="256" selection-start-column="52" selection-end-line="256" selection-end-column="52" />
-              <caret line="265" column="52" selection-start-line="265" selection-start-column="52" selection-end-line="265" selection-end-column="52" />
-              <caret line="274" column="52" selection-start-line="274" selection-start-column="52" selection-end-line="274" selection-end-column="52" />
-              <caret line="283" column="52" selection-start-line="283" selection-start-column="52" selection-end-line="283" selection-end-column="52" />
-              <caret line="292" column="52" selection-start-line="292" selection-start-column="52" selection-end-line="292" selection-end-column="52" />
-              <caret line="301" column="52" selection-start-line="301" selection-start-column="52" selection-end-line="301" selection-end-column="52" />
-              <caret line="310" column="52" selection-start-line="310" selection-start-column="52" selection-end-line="310" selection-end-column="52" />
-              <caret line="319" column="52" selection-start-line="319" selection-start-column="52" selection-end-line="319" selection-end-column="52" />
-              <caret line="328" column="52" selection-start-line="328" selection-start-column="52" selection-end-line="328" selection-end-column="52" />
-              <caret line="337" column="52" selection-start-line="337" selection-start-column="52" selection-end-line="337" selection-end-column="52" />
-              <caret line="346" column="52" selection-start-line="346" selection-start-column="52" selection-end-line="346" selection-end-column="52" />
-              <caret line="355" column="52" selection-start-line="355" selection-start-column="52" selection-end-line="355" selection-end-column="52" />
-              <caret line="364" column="52" selection-start-line="364" selection-start-column="52" selection-end-line="364" selection-end-column="52" />
-              <caret line="373" column="52" selection-start-line="373" selection-start-column="52" selection-end-line="373" selection-end-column="52" />
-              <caret line="382" column="52" selection-start-line="382" selection-start-column="52" selection-end-line="382" selection-end-column="52" />
-              <caret line="391" column="52" selection-start-line="391" selection-start-column="52" selection-end-line="391" selection-end-column="52" />
-              <caret line="400" column="52" selection-start-line="400" selection-start-column="52" selection-end-line="400" selection-end-column="52" />
-              <caret line="409" column="52" selection-start-line="409" selection-start-column="52" selection-end-line="409" selection-end-column="52" />
-              <caret line="418" column="52" selection-start-line="418" selection-start-column="52" selection-end-line="418" selection-end-column="52" />
-              <caret line="427" column="52" selection-start-line="427" selection-start-column="52" selection-end-line="427" selection-end-column="52" />
-              <caret line="436" column="52" selection-start-line="436" selection-start-column="52" selection-end-line="436" selection-end-column="52" />
-              <caret line="445" column="52" selection-start-line="445" selection-start-column="52" selection-end-line="445" selection-end-column="52" />
-              <caret line="454" column="52" selection-start-line="454" selection-start-column="52" selection-end-line="454" selection-end-column="52" />
-              <caret line="463" column="52" selection-start-line="463" selection-start-column="52" selection-end-line="463" selection-end-column="52" />
-              <caret line="472" column="52" selection-start-line="472" selection-start-column="52" selection-end-line="472" selection-end-column="52" />
-              <caret line="481" column="52" selection-start-line="481" selection-start-column="52" selection-end-line="481" selection-end-column="52" />
-              <caret line="490" column="52" selection-start-line="490" selection-start-column="52" selection-end-line="490" selection-end-column="52" />
-              <caret line="499" column="52" selection-start-line="499" selection-start-column="52" selection-end-line="499" selection-end-column="52" />
-              <caret line="508" column="52" selection-start-line="508" selection-start-column="52" selection-end-line="508" selection-end-column="52" />
-              <caret line="517" column="52" selection-start-line="517" selection-start-column="52" selection-end-line="517" selection-end-column="52" />
-              <caret line="526" column="52" selection-start-line="526" selection-start-column="52" selection-end-line="526" selection-end-column="52" />
-              <caret line="535" column="52" selection-start-line="535" selection-start-column="52" selection-end-line="535" selection-end-column="52" />
-              <caret line="544" column="52" selection-start-line="544" selection-start-column="52" selection-end-line="544" selection-end-column="52" />
-              <caret line="553" column="52" selection-start-line="553" selection-start-column="52" selection-end-line="553" selection-end-column="52" />
-              <caret line="562" column="52" selection-start-line="562" selection-start-column="52" selection-end-line="562" selection-end-column="52" />
-              <caret line="571" column="52" selection-start-line="571" selection-start-column="52" selection-end-line="571" selection-end-column="52" />
-              <caret line="580" column="52" selection-start-line="580" selection-start-column="52" selection-end-line="580" selection-end-column="52" />
-              <caret line="589" column="52" selection-start-line="589" selection-start-column="52" selection-end-line="589" selection-end-column="52" />
-              <caret line="598" column="52" selection-start-line="598" selection-start-column="52" selection-end-line="598" selection-end-column="52" />
-              <caret line="607" column="52" selection-start-line="607" selection-start-column="52" selection-end-line="607" selection-end-column="52" />
-              <caret line="616" column="52" selection-start-line="616" selection-start-column="52" selection-end-line="616" selection-end-column="52" />
-              <caret line="625" column="52" selection-start-line="625" selection-start-column="52" selection-end-line="625" selection-end-column="52" />
-              <caret line="634" column="52" selection-start-line="634" selection-start-column="52" selection-end-line="634" selection-end-column="52" />
-              <caret line="643" column="52" selection-start-line="643" selection-start-column="52" selection-end-line="643" selection-end-column="52" />
-              <caret line="652" column="52" selection-start-line="652" selection-start-column="52" selection-end-line="652" selection-end-column="52" />
-              <caret line="661" column="52" selection-start-line="661" selection-start-column="52" selection-end-line="661" selection-end-column="52" />
-              <caret line="670" column="52" selection-start-line="670" selection-start-column="52" selection-end-line="670" selection-end-column="52" />
+            <state relative-caret-position="283">
+              <caret line="129" column="35" selection-start-line="129" selection-start-column="35" selection-end-line="129" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="26" column="61" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -92,40 +46,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/data-table/data-table.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/BottomContent/BottomContent.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="103" selection-start-line="1" selection-start-column="103" selection-end-line="1" selection-end-column="103" />
+            <state relative-caret-position="178">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/ChartGraphs/ChartGraphs.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="63" column="90" selection-start-line="63" selection-start-column="90" selection-end-line="63" selection-end-column="90" />
             </state>
           </provider>
         </entry>
@@ -145,6 +72,12 @@
       <find>position</find>
       <find>T</find>
       <find>bitcoin</find>
+      <find>link</find>
+      <find>style</find>
+      <find>cnt</find>
+      <find>Link</find>
+      <find>ink</find>
+      <find>component</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -155,13 +88,14 @@
       <list>
         <option value="$PROJECT_DIR$/src/Components/Navbar/Navbar.js" />
         <option value="$PROJECT_DIR$/src/Components/Footer/Footer.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/Components/ChartGraphs/ChartGraphs.css" />
         <option value="$PROJECT_DIR$/src/Components/ChartGraphs/ChartGraphs.js" />
         <option value="$PROJECT_DIR$/src/Components/BottomContent/BottomContent.css" />
-        <option value="$PROJECT_DIR$/src/Components/BottomContent/BottomContent.js" />
         <option value="$PROJECT_DIR$/src/Components/data-table/data-table.css" />
+        <option value="$PROJECT_DIR$/src/Components/Details/Details.js" />
+        <option value="$PROJECT_DIR$/src/Components/BottomContent/BottomContent.js" />
         <option value="$PROJECT_DIR$/src/Components/data-table/data-table.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
       </list>
     </option>
   </component>
@@ -177,6 +111,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -202,16 +137,23 @@
               <item name="Components" type="462c0819:PsiDirectoryNode" />
               <item name="data-table" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="sheriftux" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sheriftux" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="Details" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.1.0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -224,7 +166,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -272,17 +214,18 @@
       <workItem from="1556190421369" duration="506000" />
       <workItem from="1556191949511" duration="80000" />
       <workItem from="1556193040550" duration="4814000" />
+      <workItem from="1556871903442" duration="6901000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12828000" />
+    <option name="totallyTimeSpent" value="19729000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="70" y="27" width="1850" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1764706" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17624521" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -296,7 +239,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32824427" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -326,111 +269,50 @@
     <entry file="file://$PROJECT_DIR$/src/App.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/ChartGraphs/ChartGraphs.css">
+    <entry file="file://$PROJECT_DIR$/src/Components/ChartGraphs/ChartGraphs.css" />
+    <entry file="file://$PROJECT_DIR$/src/Components/BottomContent/BottomContent.css" />
+    <entry file="file://$PROJECT_DIR$/src/Components/data-table/data-table.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        <state relative-caret-position="15">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/BottomContent/BottomContent.css">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/ChartGraphs/ChartGraphs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="63" column="90" selection-start-line="63" selection-start-column="90" selection-end-line="63" selection-end-column="90" />
+        <state relative-caret-position="945">
+          <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
+    <entry file="file://$PROJECT_DIR$/src/Components/Details/Details.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        <state relative-caret-position="615">
+          <caret line="41" column="116" selection-start-line="41" selection-start-column="116" selection-end-line="41" selection-end-column="116" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/data-table/data-table.css">
+    <entry file="file://$PROJECT_DIR$/src/Components/data-table/data-table.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        <state relative-caret-position="283">
+          <caret line="129" column="35" selection-start-line="129" selection-start-column="35" selection-end-line="129" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/BottomContent/BottomContent.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="103" selection-start-line="1" selection-start-column="103" selection-end-line="1" selection-end-column="103" />
+        <state relative-caret-position="178">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/data-table/data-table.js">
+    <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="128" column="52" selection-start-line="128" selection-start-column="52" selection-end-line="128" selection-end-column="52" />
-          <caret line="138" column="52" selection-start-line="138" selection-start-column="52" selection-end-line="138" selection-end-column="52" />
-          <caret line="148" column="52" selection-start-line="148" selection-start-column="52" selection-end-line="148" selection-end-column="52" />
-          <caret line="157" column="52" selection-start-line="157" selection-start-column="52" selection-end-line="157" selection-end-column="52" />
-          <caret line="166" column="52" selection-start-line="166" selection-start-column="52" selection-end-line="166" selection-end-column="52" />
-          <caret line="175" column="52" selection-start-line="175" selection-start-column="52" selection-end-line="175" selection-end-column="52" />
-          <caret line="184" column="52" selection-start-line="184" selection-start-column="52" selection-end-line="184" selection-end-column="52" />
-          <caret line="193" column="52" selection-start-line="193" selection-start-column="52" selection-end-line="193" selection-end-column="52" />
-          <caret line="202" column="52" selection-start-line="202" selection-start-column="52" selection-end-line="202" selection-end-column="52" />
-          <caret line="211" column="52" selection-start-line="211" selection-start-column="52" selection-end-line="211" selection-end-column="52" />
-          <caret line="220" column="52" selection-start-line="220" selection-start-column="52" selection-end-line="220" selection-end-column="52" />
-          <caret line="229" column="52" selection-start-line="229" selection-start-column="52" selection-end-line="229" selection-end-column="52" />
-          <caret line="238" column="52" selection-start-line="238" selection-start-column="52" selection-end-line="238" selection-end-column="52" />
-          <caret line="247" column="52" selection-start-line="247" selection-start-column="52" selection-end-line="247" selection-end-column="52" />
-          <caret line="256" column="52" selection-start-line="256" selection-start-column="52" selection-end-line="256" selection-end-column="52" />
-          <caret line="265" column="52" selection-start-line="265" selection-start-column="52" selection-end-line="265" selection-end-column="52" />
-          <caret line="274" column="52" selection-start-line="274" selection-start-column="52" selection-end-line="274" selection-end-column="52" />
-          <caret line="283" column="52" selection-start-line="283" selection-start-column="52" selection-end-line="283" selection-end-column="52" />
-          <caret line="292" column="52" selection-start-line="292" selection-start-column="52" selection-end-line="292" selection-end-column="52" />
-          <caret line="301" column="52" selection-start-line="301" selection-start-column="52" selection-end-line="301" selection-end-column="52" />
-          <caret line="310" column="52" selection-start-line="310" selection-start-column="52" selection-end-line="310" selection-end-column="52" />
-          <caret line="319" column="52" selection-start-line="319" selection-start-column="52" selection-end-line="319" selection-end-column="52" />
-          <caret line="328" column="52" selection-start-line="328" selection-start-column="52" selection-end-line="328" selection-end-column="52" />
-          <caret line="337" column="52" selection-start-line="337" selection-start-column="52" selection-end-line="337" selection-end-column="52" />
-          <caret line="346" column="52" selection-start-line="346" selection-start-column="52" selection-end-line="346" selection-end-column="52" />
-          <caret line="355" column="52" selection-start-line="355" selection-start-column="52" selection-end-line="355" selection-end-column="52" />
-          <caret line="364" column="52" selection-start-line="364" selection-start-column="52" selection-end-line="364" selection-end-column="52" />
-          <caret line="373" column="52" selection-start-line="373" selection-start-column="52" selection-end-line="373" selection-end-column="52" />
-          <caret line="382" column="52" selection-start-line="382" selection-start-column="52" selection-end-line="382" selection-end-column="52" />
-          <caret line="391" column="52" selection-start-line="391" selection-start-column="52" selection-end-line="391" selection-end-column="52" />
-          <caret line="400" column="52" selection-start-line="400" selection-start-column="52" selection-end-line="400" selection-end-column="52" />
-          <caret line="409" column="52" selection-start-line="409" selection-start-column="52" selection-end-line="409" selection-end-column="52" />
-          <caret line="418" column="52" selection-start-line="418" selection-start-column="52" selection-end-line="418" selection-end-column="52" />
-          <caret line="427" column="52" selection-start-line="427" selection-start-column="52" selection-end-line="427" selection-end-column="52" />
-          <caret line="436" column="52" selection-start-line="436" selection-start-column="52" selection-end-line="436" selection-end-column="52" />
-          <caret line="445" column="52" selection-start-line="445" selection-start-column="52" selection-end-line="445" selection-end-column="52" />
-          <caret line="454" column="52" selection-start-line="454" selection-start-column="52" selection-end-line="454" selection-end-column="52" />
-          <caret line="463" column="52" selection-start-line="463" selection-start-column="52" selection-end-line="463" selection-end-column="52" />
-          <caret line="472" column="52" selection-start-line="472" selection-start-column="52" selection-end-line="472" selection-end-column="52" />
-          <caret line="481" column="52" selection-start-line="481" selection-start-column="52" selection-end-line="481" selection-end-column="52" />
-          <caret line="490" column="52" selection-start-line="490" selection-start-column="52" selection-end-line="490" selection-end-column="52" />
-          <caret line="499" column="52" selection-start-line="499" selection-start-column="52" selection-end-line="499" selection-end-column="52" />
-          <caret line="508" column="52" selection-start-line="508" selection-start-column="52" selection-end-line="508" selection-end-column="52" />
-          <caret line="517" column="52" selection-start-line="517" selection-start-column="52" selection-end-line="517" selection-end-column="52" />
-          <caret line="526" column="52" selection-start-line="526" selection-start-column="52" selection-end-line="526" selection-end-column="52" />
-          <caret line="535" column="52" selection-start-line="535" selection-start-column="52" selection-end-line="535" selection-end-column="52" />
-          <caret line="544" column="52" selection-start-line="544" selection-start-column="52" selection-end-line="544" selection-end-column="52" />
-          <caret line="553" column="52" selection-start-line="553" selection-start-column="52" selection-end-line="553" selection-end-column="52" />
-          <caret line="562" column="52" selection-start-line="562" selection-start-column="52" selection-end-line="562" selection-end-column="52" />
-          <caret line="571" column="52" selection-start-line="571" selection-start-column="52" selection-end-line="571" selection-end-column="52" />
-          <caret line="580" column="52" selection-start-line="580" selection-start-column="52" selection-end-line="580" selection-end-column="52" />
-          <caret line="589" column="52" selection-start-line="589" selection-start-column="52" selection-end-line="589" selection-end-column="52" />
-          <caret line="598" column="52" selection-start-line="598" selection-start-column="52" selection-end-line="598" selection-end-column="52" />
-          <caret line="607" column="52" selection-start-line="607" selection-start-column="52" selection-end-line="607" selection-end-column="52" />
-          <caret line="616" column="52" selection-start-line="616" selection-start-column="52" selection-end-line="616" selection-end-column="52" />
-          <caret line="625" column="52" selection-start-line="625" selection-start-column="52" selection-end-line="625" selection-end-column="52" />
-          <caret line="634" column="52" selection-start-line="634" selection-start-column="52" selection-end-line="634" selection-end-column="52" />
-          <caret line="643" column="52" selection-start-line="643" selection-start-column="52" selection-end-line="643" selection-end-column="52" />
-          <caret line="652" column="52" selection-start-line="652" selection-start-column="52" selection-end-line="652" selection-end-column="52" />
-          <caret line="661" column="52" selection-start-line="661" selection-start-column="52" selection-end-line="661" selection-end-column="52" />
-          <caret line="670" column="52" selection-start-line="670" selection-start-column="52" selection-end-line="670" selection-end-column="52" />
+        <state relative-caret-position="238">
+          <caret line="26" column="61" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
