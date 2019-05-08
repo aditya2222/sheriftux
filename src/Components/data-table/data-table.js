@@ -787,14 +787,14 @@ class DatatablePage extends Component {
         return (
 
 
-            <div className='container'>
+            <div className='container-fluid'>
 
                 <div>
-                    <div style={{height:'100%'}}>
+                    <div style={{height: '100%'}}>
                         <iframe
-                            src="https://widget.coinlib.io/widget?type=full_v2&theme=light&cnt=20&pref_coin_id=1505&graph=yes"
-                            width="100%" height="409" scrolling="auto" marginWidth="0" marginHeight="0" frameBorder="0"
-                            border="0" ></iframe>
+                            src="https://widget.coinlib.io/widget?type=full_v2&theme=light&cnt=10&pref_coin_id=1505&graph=yes"
+                            width="100%" height="700" scrolling="auto" marginWidth="0" marginHeight="0" frameBorder="0"
+                            border="0"></iframe>
                     </div>
                     <div>powered
                         by&nbsp;<a href="https://coinlib.io" target="_blank">Coinlib</a>
